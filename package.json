@@ -1,0 +1,31 @@
+{
+    "name": "ff-class",
+    "version": "1.0.0",
+    "description": "To add, remove, test or toggle classes in vanilla JS",
+    "main": "ff-class.js",
+    "scripts": {
+        "uglify": "uglifyjs ./ff-class.js -o ./ff-class.min.js --comments -m -c",
+        "build": "npm run uglify"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/felixfaure/ff-class.git"
+    },
+    "keywords": [
+        "class",
+        "classes",
+        "js",
+        "minimal",
+        "ff-class",
+        "felixfaure"
+    ],
+    "author": "David Félix-Faure <contact@felixfaure.fr> (http://www.felixfaure.fr)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/felixfaure/ff-class/issues"
+    },
+    "homepage": "http://felixfaure.github.io/ff-class/",
+    "devDependencies": {
+        "uglify-js": "^2.4.24"
+    }
+}
