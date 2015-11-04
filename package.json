@@ -24,7 +24,7 @@
     "bugs": {
         "url": "https://github.com/felixfaure/ff-class/issues"
     },
-    "homepage": "http://felixfaure.github.io/ff-class/",
+    "homepage": "https://github.com/felixfaure/ff-class/",
     "devDependencies": {
         "uglify-js": "^2.4.24"
     }
